@@ -1,8 +1,9 @@
 
-import  { useState,useEffect } from "react";
+import  { useState,useEffect} from "react";
 import './App.css';
 import Users from './Users'
 import Pratice from './Pratice';
+
 
 
 function App() {
@@ -256,7 +257,7 @@ useEffect(() =>{
  setTimeout(()=>{
   setcount(count +1)
  },1000)
-},[])
+})
 
 
   return (
@@ -286,6 +287,10 @@ useEffect(() =>{
    })}
 
 <Pratice>  </Pratice>
+
+
+
+
 
 
 
